@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="application/javascript">
+        //Create references to the input elements
+        function checkdata() {
+
+            var a = new String("Hello");
+            var b = "Hello";
+
+            if (a === b) {
+                alert("Same");
+
+            } else {
+
+                alert("Diff");
+
+            }
+        }
+
+        function gau() {
+            alert("GAU");
+        }    
+
+    </script>
+    <title>
+        Contact detail
+    </title>
+</head>
+
+<body>
+    <h2>Enter your contact details</h2>
+    <form id="Form1" onsubmit="return checkdata()">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">E-mail ID:</label>
+        <input type="text" id="email" name="email">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" onclick ="return gau()">
+    </form>
+</body>
+
+</html>
