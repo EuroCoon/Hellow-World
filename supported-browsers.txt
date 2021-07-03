@@ -1,3 +1,3 @@
 Chrome
 Firefox
-Chrome
+Edge
