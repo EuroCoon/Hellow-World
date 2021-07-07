@@ -1,0 +1,10 @@
+body{
+    background-color: black; font-family:arial; color: white; width: 500px;
+}
+h2 {
+    font-family: verdana; color: grey; text-align: center;
+}
+.maindiv {
+    background-color: white; color: black; width: 300px; padding: 20px; 
+    box-align: center; border-radius: 25px;
+}
